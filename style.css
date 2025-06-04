@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+:root{
+    --cor-principal: #FFDBC6;
+    --cor-secundaria:
+    --cor-fundo:
+    --cor-texto: #ffffff;
+    --fonte-primaria: "Open Sans", sans-serif;
+    --fonte-destaque: "Allura", cursive;
+}
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    list-style: none;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: #FFDBC6;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #f99d9e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 100px;
+    color: rgb(145, 143, 141);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+
+}
+.logo{
+    height: 80px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.logo img{
+    height: 80px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.logo h1{
+    font-family: "Allura", cursive;
+    font-size: 40px;
+    color: #ffffff;
+    
+
+}
+.logo h2{
+    font-family: "Open Sans", sans-serif;
+    color: #ffffff;
+}
+
+.menu{
+    width: 900px;
+}
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a{
+    padding: 10px 40px ;
+    color: #fcefef;
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    color: #A06343;
+    transform: scale(5s);
+}
+.linha_home{
+    height: 100vh;
+    background-color: black;
+    background-image: url(assets/img/Design\ sem\ nome.png);
+    background-size: cover;
+    backdrop-filter: grayscale(30%);
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    align-items: center;
+
+}
+.letra{
+    width: 500px;
+    font-size: 55px;
+    font-weight: bold;
+    display: flex;
+    align-items: end;
+}
+.container{
+    width: 1200px;
+    height: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.foto{
+    width:100% ;
+    height: 200px;
+    border-radius: 10px;
+}
+.linha{
+    width: 100%;
+    height: 140vh;
+    display: flex;
+    justify-content: center;
+
+}
+
+.coluna{
+    width: 700px;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.produto{
+    width: 305px;
+    height: 315px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(250, 250, 250);
+    background-color: #ffffff;
+    box-shadow: 0 6px 10px ;
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+    cursor: pointer;
+    border-radius: 10px;
+    perspective: 1000px;
+}
+.produto:hover{
+    transition: translateY(-10px) scale(1.10);
+    box-shadow: 0 12px 20px;
+
+}
+.preco {
+    color: #ff0004;
+}
+.nome{
+    width: 100%;
+    height: 30px;
+    font-family:"Open Sans", sans-serif ;
+    color: #954f50;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+footer {
+     width: 100%;
+     height: 60vh;
+    background-color: #060606;
+    color: #fcefef;
+    display: flex;
+   justify-content: space-around;
+}
+footer .logo{
+    height: 240px;
+    width: 240px;
+  
+}
+footer .coluna{
+     display: flex;
+   width: 50%;
+   height: 100%;
+   flex-direction: column;
+}
+
+.footer-bottom{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+
+}
