@@ -118,7 +118,7 @@ header{
 }
 .linha{
     width: 100%;
-    height: 140vh;
+    height: 110vh;
     display: flex;
     justify-content: center;
 
@@ -164,7 +164,7 @@ header{
 }
 footer {
      width: 100%;
-     height: 60vh;
+     height: 57vh;
     background-color: #060606;
     color: #fcefef;
     display: flex;
